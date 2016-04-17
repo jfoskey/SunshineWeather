@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<!--xmlns:app="http://schemas.android.com/apk/res-auto" is the namespace used by Android support library for it's use of it's widget xml -->
+    <!--Share Action Provider-->
+    <!--app:showAsAction="always" , always shown as action so it appears on the action bar -->
+    <!--app:actionProviderClass=
+            "android.support.v7.widget.ShareActionProvider"  ,    From the android support library  always share provider to be used on earlier versions on android-->
+    <item
+        android:id="@+id/action_share"
+        app:showAsAction="always"
+        android:title="@string/action_share"
+        app:actionProviderClass=
+            "android.support.v7.widget.ShareActionProvider" />
+
+</menu>
